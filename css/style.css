@@ -7,7 +7,7 @@ header,main,footer,section,img{
     display: block;
 }
 
-main{
+main,header{
     width: 100%;
 }
 
@@ -16,10 +16,9 @@ main{
     background-repeat: no-repeat;
     background-size: contain;
     height: 33px;
-    width: 100%;
+    width: 192px;
     margin-top: 40px;
     margin-left: 40px;
-    /* display: block; */
 }
 
 .invisibleLink {
@@ -140,7 +139,7 @@ p{
 
 .container{
     display: flex;
-    
+    margin-left: 15px;
 }
 
 .card{
@@ -593,7 +592,6 @@ iframe{
 
 footer{
     width: 100%;
-
     position: absolute;
     top: 2699px;
     height: 301px;
