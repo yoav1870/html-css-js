@@ -11,22 +11,29 @@ main,header{
     width: 100%;
 }
 
-.wrapWithBackgroundImage {
-    background-image: url("../images/icon.png");
+#logo{
+    background-image: url("../images/iconMain.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 33px;
-    width: 192px;
-    margin-top: 40px;
-    margin-left: 40px;
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    top: 41px
+
 }
 
-.invisibleLink {
-    position: absolute;
-    left: 40px;
-    top: 40px;
-    height: 33px;
-    width: 100%;
+#logo span{
+    width: 200px;
+    padding-left: 38px;
+    display: block;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.25em;
+    color: #3E3F43;
 }
 
 .box{
@@ -98,6 +105,7 @@ main,header{
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
+
 }
 
 p{
@@ -120,26 +128,27 @@ p{
 }
 
 .text2{
-    position: absolute;
+    position: relative;
     width: 140px;
     height: 40px;
-    left: 40px;
-    top: 1243px;
-    height: 40px;
-    width: 140px;
+    
+    top: 83px;
 
     font-family: 'Rubik';
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
-    /* margin-bottom: 24px; */
+    
+    
 }
 
 
 .container{
     display: flex;
     margin-left: 15px;
+    position: absolute;
+    top: 48px;
 }
 
 .card{
