@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.yellow {
+    background-color: #EBEF18;
+}
+
+header, main, footer, nav, aside, section, div,article  {
+    display: block;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+a:hover{
+    text-decoration: underline purple;
+}
+
+header{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    width: 100%;
+    background-color: #F2E9E9;
+    height: 123px;
+}
+
+nav{
+    display: flex;
+    width: 198px;
+    height: 33px;
+    gap: 10px;
+}
+
+header > nav > a{
+    display: flex;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+header > div{
+    display: flex;
+}
+header > div.reddot{
+    width: 14px;
+    height: 14px;
+    background-color: #F72828;
+    border-radius: 50%;
+    margin-top: 34px;
+    margin-left: -145px;
+}
+#wrapper {
+    margin: 0px auto;
+    width: 881px;
+    height: 624px;
+    left: 164px;
+    top: 158px;
+    margin-top: 70px;
+    display: flex; 
+}
+
+#wrapper > main{
+    display: flex;
+}
+
+#wrapper > main > aside{
+    display: flex;
+    width: 374px;
+    height: 120px;
+    margin-top: 176px;
+    flex-direction: column;
+}
+
+#wrapper > main > aside > h1{
+    display:flex;
+    width: 234px;
+    height: 97px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 96px;
+    
+    color: #000000;    
+}
+
+#wrapper > main > aside > h2{
+    display:flex;
+    
+    width: 374px;
+    height: 33px;
+
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;       
+}
+
+#wrapper > main > section{
+    display: flex;
+    width: 437px;
+    height: 624px;
+    margin-top: 0px;
+    margin-left: 70px;
+    flex-direction: row;
+}
+
+#wrapper > main > section > section{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+    width: 149px;
+    height: 624px;  
+}
+
+#wrapper > main > section > section > div{
+    display: flex;
+}
+
+#wrapper > main > section > section > div.box1{
+    width: 75px;
+    height: 23px;
+    margin-top: 44px;
+}
+
+#wrapper > main > section > section > div.box2{
+    width: 136px;
+    height: 46px;
+    margin-top: 8px;
+}
+
+#wrapper > main > section > section > div.box3{
+    width: 134px;
+    height: 404px;
+    margin-top: 11px;
+}
+
+#wrapper > main > section > section > div.box4{
+    width: 88px;
+    height: 28px;
+    margin-top: 11px;
+}
+
+#wrapper > main > section > section > section{
+    display: flex;
+    flex-direction: row;
+    width: 149px;
+    height: 49px;
+}
+
+#wrapper > main > section > section > section > div.box5{
+    width: 25px;
+    height: 26px;
+    margin-top: 7px;
+}
+
+#wrapper > main > section > section > section > div.box6{
+    width: 25px;
+    height: 26px;
+    margin-top: 7px ;
+    margin-left: 7px;
+}
+
+#wrapper > main > section > div{
+    display: flex;
+    flex-direction: column;
+    width: 246px;
+    height: 624px;  
+}
+
+#wrapper > main > section > section > div{
+    display: flex;
+    
+}
+
+#wrapper > main > section > div > div.box7{
+    width: 246px;
+    height: 352px;
+    margin-top: 44px;
+}
+
+#wrapper > main > section > div > section{
+    display: flex;
+    flex-direction: row;
+    width: 246px;
+    height: 228px;
+}
+
+#wrapper > main > section > div > section > div.box8{
+    width: 123px;
+    height: 212px;
+    margin-top: 16px;
+}
+
+#wrapper > main > section > div > section > section{
+    display: flex;
+    flex-direction: column;
+    width: 123px;
+    height: 228px;
+}
+
+#wrapper > main > section > div > section > section > div.box14{
+    width: 55px;
+    height: 105px;
+    margin-left: 14px;
+    margin-top: 16px;
+}
+
+#wrapper > main > section > div > section > section > div.box16{
+    width: 82px;
+    height: 58px;
+    margin-left: 14px;
+    margin-top: 7px;
+}
+
+#wrapper > main > section > div > section > article{
+    display: flex;
+    flex-direction: column;
+    width: 54px;
+    height: 228px;
+}
+
+#wrapper > main > section > div > section > article > div.box15{
+    width: 13px;
+    height: 105px;
+    margin-left: 41px;
+    margin-top: 16px;
+}
+
+#wrapper > main > section > div > section > article > div.box17{
+    width: 55px;
+    height: 58px;
+    margin-left: 0px;
+    margin-top: 7px;
+}
+
+
+
+#wrapper > main > section > article{
+    display: flex;
+    flex-direction: column;  
+    width: 42px;
+    height: 624px;
+
+}
+
+#wrapper > main > section > section > article{
+    display: flex;
+}
+
+#wrapper > main > section > article > div.box9{
+    width: 28px;
+    height: 55px;
+    margin-left: 14px;
+}
+
+#wrapper > main > section > article > div.box10{
+    width: 28px;
+    height: 55px;
+    margin-left: 14px;
+    margin-top: 11px;
+}
+
+#wrapper > main > section > article > div.box11{
+    width: 28px;
+    height: 55px;
+    margin-left: 14px;
+    margin-top: 11px;
+}
+
+#wrapper > main > section > article > div.box12{
+    width: 28px;
+    height: 198px;
+    margin-left: 14px;
+    margin-top: 11px;
+}
+
+#wrapper > main > section > article > div.box13{
+    width: 42px;
+    height: 105px;
+    margin-top: 16px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 41px;
+    margin-top: 71px;
+    background-color: #000000;
+}
+
+/* layout 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+header > section{
+    display: flex;
+}
+header > section.reddot{
+    width: 14px;
+    height: 14px;
+    background-color: #F72828;
+    border-radius: 50%;
+    margin-top: 34px;
+    margin-left: 20px;
+}
+.grey {
+    background-color: #C4C4C4;
+}
+
+#content{
+    display: flex;
+    margin: 0px auto;
+    flex-direction: row;
+    width: 1440px;
+    height: 1860px;
+}
+
+#content > section#left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 119px;
+    width: 457px;
+    height: 1901px;
+    margin-left: 151px;
+    margin-right: 27.5px;
+}
+
+#content > section#middle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 287px;
+    width: 457px;
+    height: 1901px;
+    margin-left: 27.5px;
+    margin-right: 151px;
+}
+
+#content > section#right{
+    display: flex;
+    flex-direction: column;
+    width: 169px;
+    height: 1860px;
+    background-color: #EBEF18;
+}
+
+#content > section > div{
+    display: flex;
+}
+
+#content > section#left > div.box1{
+    height: 299px;
+    width: 457px;
+}
+
+#content > section#left > div.box2{
+    
+    height: 299px;
+    width: 457px;
+    margin-top: 70px;
+}
+
+#content > section#left > div.box3{
+    height: 299px;
+    width: 457px;
+    margin-top: 70px;
+}
+
+#content > section#left > div.box4{
+    
+    height: 299px;
+    width: 457px;
+    margin-top: 70px;
+}
+
+#content > section#left > div.box5{
+    
+    height: 265px;
+    width: 457px;
+    margin-top: 70px;
+}
+
+#content > section#middle > div.box6{
+    height: 299px;
+    width: 457px;
+}
+#content > section#middle > div.box7{
+    margin-top: 70px;
+    height: 299px;
+    width: 457px;
+    
+}
+#content > section#middle > div.box8{
+    margin-top: 70px;    
+    height: 299px;
+    width: 457px;
+}
+#content > section#middle > div.box9{
+    height: 299px;
+    width: 457px;
+    margin-top: 70px;
+}
+#content > section#middle > div.box10{
+    height: 97px;
+    width: 457px;
+    margin-top: 70px;
+}
+
+#content > section#right >section#top{
+    display: flex;
+    flex-direction: column;
+    width: 169px;
+    height: 1264px;
+}
+
+#content > section#right >section#top >div{
+    display: flex;
+}
+
+#content > section#right > section#top >div.box11{
+    margin-top: 119px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+#content > section#right > section#top >div.box12{
+    margin-top: 48px;
+    margin-left: 89px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+
+#content > section#right > section#top >div.box13{
+    margin-top: 289px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+#content > section#right >section#down{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 169px;
+    height: 641px;
+}
+
+#content > section#right >section#down >div{
+    display: flex;
+}
+
+#content > section#right >section#down >a{
+    margin-left: 44px;
+    width: 81px;
+    height: 641px;    
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+    text-decoration-line: none;
+    color: #000000;    
+}
+
+section > footer{
+    display: flex;
+    margin-top: 0px;
+}
+
+/* layout 3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+div#wrapperr{
+    margin: 0px auto;
+    height: 1459px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+
+div#wrapperr >section#left{
+    display: flex;
+    flex-direction: column;
+    height: 1459px;
+    width: 372px;
+    background-color: #E5E5E5;
+}
+
+div#wrapperr >section#left > nav{
+    display: flex;
+    width: 372px;
+    height: 876px;
+}
+div#wrapperr >section#left > nav > section > a{
+    display: flex;
+}
+div#wrapperr >section#left > nav > section > a{
+    margin-top: 4px;
+    margin-left: 38px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;  
+}
+div#wrapperr >section#left > nav > a{
+    margin-top: 4px;
+    margin-left: 18px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;  
+}
+
+div#wrapperr > section#left > div{
+    display: flex;
+    
+}
+
+div#wrapperr > section#left > div.reddot{
+    width: 14px;
+    height: 14px;
+    background-color: #F72828;
+    border-radius: 50%;
+    margin-top: 105px;
+    margin-left: 320px;   
+} 
+
+div#wrapperr > section#left > div.card1{
+    display: flex;
+    height: 463px;
+}
+
+div#wrapperr >section#middle{
+    display: flex;
+    flex-direction: column;
+    height: 1459px;
+    width: 964px;
+}
+
+div#wrapperr > section#middle > div.card2{
+    display: flex;
+    height: 463px;
+    margin-top: 995px;
+}
+
+
+div#wrapperr > section#right{
+    display: flex;
+    flex-direction: column;
+    height: 1459px;
+    width: 104px;
+}
+
+div#wrapperr > section#right > div.card3{
+    width: 104px;
+    height: 995px;
+    background: rgba(24, 71, 239, 0.3);
+}
+
+div#wrapperr > section#right > div.card4{
+    width: 104px;
+    height: 463px;
+}
