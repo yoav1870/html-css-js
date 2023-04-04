@@ -573,7 +573,7 @@ div#wrapperr > section#right > div.card4{
     width: 104px;
     height: 463px;
 }
-/* layout 3 responsive */
+/* layout 3 responsive ///////////////////////////////////////// */
 @media only screen and (max-width: 480px){
     div#wrapperr{
         flex-direction: column;
@@ -581,7 +581,7 @@ div#wrapperr > section#right > div.card4{
     }
     header{
         /* background-color: red; */
-        width: 100%;
+        width: 480px;
         height: 123px;
     }
 
@@ -594,7 +594,7 @@ div#wrapperr > section#right > div.card4{
 
     div#wrapperr > section#middle > div.card2{
         height: 474px;
-        width: 100%;
+        width: 480px;
     } 
     div#wrapperr > section#left{
         flex-direction: column;
@@ -616,6 +616,7 @@ div#wrapperr > section#right > div.card4{
         flex-direction: row;
         height: 0px;
         margin-left: 30px;
+        width: 480px;
     }
     /* section > footer{
         display: 100%;
