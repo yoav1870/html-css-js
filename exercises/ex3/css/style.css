@@ -610,12 +610,12 @@ div#wrapperr > section#right > div.card4{
         width: 14px;
         height: 14px;
         margin-top: 27px; 
-        margin-left: 360px;    
+        margin-left: 348px;    
     } 
     div#wrapperr > section#left > nav{
         flex-direction: row;
         height: 0px;
-        margin-left: 30px;
+        margin-left: 28px;
         width: 480px;
     }
     /* section > footer{
