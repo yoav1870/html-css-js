@@ -573,3 +573,54 @@ div#wrapperr > section#right > div.card4{
     width: 104px;
     height: 463px;
 }
+/* layout 3 responsive */
+@media only screen and (max-width: 480px){
+    div#wrapperr{
+        flex-direction: column;
+        height: 100%;
+    }
+    header{
+        width: 100%;
+        height: 123px;
+    }
+
+    div#wrapperr > section#right{
+        display: none;
+    }
+    div#wrapperr > section#middle{
+        height: 1346px;
+    }
+
+    div#wrapperr > section#middle > div.card2{
+        height: 474px;
+        width: 100%;
+    } 
+    div#wrapperr > section#left{
+        flex-direction: column;
+        height: 105px;
+        width: 100%;
+    }
+    div#wrapperr > section#left > div.card1{
+        display: none;
+    }
+    div#wrapperr > section#left > div.reddot{
+        background-color: #F72828;
+        border-radius: 50%;
+        width: 14px;
+        height: 14px;
+        margin-top: 27px; 
+        margin-left: 360px;    
+    } 
+    div#wrapperr > section#left > nav{
+        flex-direction: row;
+        height: 0px;
+        margin-left: 40px;
+    }
+    /* section > footer{
+        display: 100%;
+    } */
+}
+
+
+
+
