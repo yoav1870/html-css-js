@@ -13,7 +13,6 @@ originalBox.addEventListener('click', function() {
     for (let i = 0; i < 3; i++)
      {
       const newBox = document.createElement('div');
-      newBox.className="black_Js";
       newBox.style.backgroundColor = 'black';
       newBox.style.width = lastBoxSize + 20 + 'px';
       newBox.style.height = lastBoxSize + 20 + 'px';
