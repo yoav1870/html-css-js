@@ -523,10 +523,7 @@ div#wrapperr > section#right > div.card4{
     }
     header > div#memmory_box{
         margin-top: 21px;
-        margin-left: 370px;
-        height: 80px;
-        width: 80px;
-        background-color: #000000;
+        margin-left: 120px;
     }
     div#wrapperr > section#right{
         display: none;
@@ -536,7 +533,7 @@ div#wrapperr > section#right > div.card4{
     }
     div#wrapperr >section#middle > section#Game{
         height: 872px;
-        width: 480px;
+        width: 470px;
     }
     div#wrapperr > section#middle > div.card2{
         height: 474px;
@@ -551,16 +548,11 @@ div#wrapperr > section#right > div.card4{
         display: none;
     }
     div#wrapperr > section#left > div.reddot{
-        background-color: #F72828;
-        border-radius: 50%;
-        width: 14px;
-        height: 14px;
         margin-top: 27px; 
-        margin-left: 348px;    
+        margin-left: 320px;    
     } 
     div#wrapperr > section#left > nav{
         flex-direction: row;
         height: 0px;
-        margin-left: 28px;
     }  
 }
