@@ -518,12 +518,12 @@ div#wrapperr > section#right > div.card4{
         height: 100%;
     }
     header{
-        width: 100%;
+        width: 480px;
         height: 123px;
     }
     header > div#memmory_box{
         margin-top: 21px;
-        margin-left: 120px;
+        margin-left: 320px;
     }
     div#wrapperr > section#right{
         display: none;
@@ -540,7 +540,7 @@ div#wrapperr > section#right > div.card4{
         width: 480px;
     } 
     div#wrapperr > section#left{
-        flex-direction: column;
+        /* flex-direction: row; */
         height: 105px;
         width: 480px;
     }
@@ -549,10 +549,13 @@ div#wrapperr > section#right > div.card4{
     }
     div#wrapperr > section#left > div.reddot{
         margin-top: 27px; 
-        margin-left: 320px;    
+        margin-left: 350px;    
     } 
     div#wrapperr > section#left > nav{
-        flex-direction: row;
         height: 0px;
+        margin-left: 30px;
     }  
+    footer{
+        width: 480px;
+    }
 }
