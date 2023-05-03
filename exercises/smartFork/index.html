@@ -12,7 +12,7 @@
 <body>      
     <div class="container-fluid">
         <div class="row">
-            <div id="navigation" class="container-fluid col-2 d-flex">
+            <div id="navigation" class="container-fluid col-2 d-flex d-none d-sm-block">
                 <div class="row flex-nowrap">
                     <div class="col-auto col-md-6 col-lg-5 min-vh-100 d-flex flex-column justify-content-between">
                         <div class="p-1">
@@ -84,33 +84,34 @@
                 <div class="row p-2">
                     <!-- Breadcrumb and search bar-->
                     <form class="d-flex my-1">
-                        <div class="col-1 my-2">
-                            <a href="#" class="text-black " style="text-decoration:none;">Users/</a>
-                            <a href="#" style="text-decoration:none;color: #8583FF;"> Clients</a>
+                        <div class="col-2 my-2 d-none d-sm-block ">
+                            <a href="#" class="text-black " style="text-decoration:none; ">Users/</a>
+                            <a href="#" style="text-decoration:none;color: #8583FF;">Clients</a>
                         </div>
-                        <div class="col-1"></div>
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <div class="col-1"></div>   
+                        <input class="form-control mr-sm-2" style="border-color:  #8583FF;" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" style="border-color:  #8583FF; color: #8583FF;" type="submit">Search</button>
+                        <div class="col-4"></div> 
                     </form>
                     <div class="container-fluid ">
                         <!-- name........ -->
                         <div class="row p-4">
-                            <div class="col-3 ml-2 ">
+                            <div class="col-3 ml-2 d-none d-sm-block">
                                 <span class="nav-link text-secondary"><b>Name</b></span>
                             </div>
-                            <div class="col-2 ml-2 ">
+                            <div class="col-2 ml-2 d-none d-sm-block">
                                 <span class="nav-link text-secondary"><b>Weight (kg)</b></span>
                             </div>
-                            <div class="col-2 ml-2 ">
+                            <div class="col-2 ml-2 d-none d-sm-block">
                                 <span class="nav-link text-secondary"><b>Height (cm)</b></span>
                             </div>
-                            <div class="col-2 ml-2 ">
+                            <div class="col-2 ml-2 d-none d-sm-block">
                                 <span class="nav-link text-secondary"><b>Age</b></span>
                             </div>
-                            <div class="col-2 ml-2 ">
+                            <div class="col-2 ml-2 d-none d-sm-block">
                                 <span class="nav-link text-secondary"><b>BMI</b></span>
                             </div>
-                            <div class="col-1 ml-2 ">
+                            <div class="col-1 ml-2 d-none d-sm-block">
                                 <span class="nav-link text-secondary"><b>Diet</b></span>
                             </div>
                         </div>
@@ -118,12 +119,13 @@
                         <div class="row p-3" style="background-color: white;">
                             <div class="col-3 ml-2 ">
                                 <div class="d-flex align-items-center">   
-                                    <div class="col-auto">
+                                    <div class="col-auto p-1">
                                         <img src="images/peper.png">
                                     </div>
+                                
                                     <div class="col-auto ">
                                         <span class="nav-link text-secondary ">Peper Ashley</span>
-                                        <span class="nav-link text-secondary ">pashley@gmail.com</span>
+                                        <span class="nav-link text-secondary">pashley@gmail.com</span>
                                     </div>
                                 </div>
                             </div>
@@ -149,9 +151,10 @@
                             
                             <div class="col-3 ml-2 ">
                                 <div class="d-flex align-items-center">   
-                                    <div class="col-auto">
+                                    <div class="col-auto p-1">
                                         <img src="images/Rafaella.png">
                                     </div>
+            
                                     <div class="col-auto ">
                                         <span class="nav-link text-secondary ">Rafaella Mendes</span>
                                         <span class="nav-link text-secondary">RafaellaM@gmail.com</span>
@@ -180,7 +183,7 @@
                             
                             <div class="col-3 ml-2 ">
                                 <div class="d-flex align-items-center">   
-                                    <div class="col-auto">
+                                    <div class="col-auto p-1">
                                         <img src="images/Elizeu.png">
                                     </div>
                                     <div class="col-auto ">
@@ -211,7 +214,7 @@
                         <div class="row p-3" style="background-color: white;">
                             <div class="col-3 ml-2 ">
                                 <div class="d-flex align-items-center">   
-                                    <div class="col-auto">
+                                    <div class="col-auto p-1">
                                         <img src="images/moshe.png">
                                     </div>
                                     <div class="col-auto ">
@@ -242,7 +245,7 @@
                         <div class="row p-3" style="background-color: white;">
                             <div class="col-3 ml-2 ">
                                 <div class="d-flex align-items-center">   
-                                    <div class="col-auto">
+                                    <div class="col-auto p-1">
                                         <img src="images/ziv.png">
                                     </div>
                                     <div class="col-auto ">
@@ -273,7 +276,7 @@
                          <div class="row p-3" style="background-color: white;">
                             <div class="col-3 ml-2 ">
                                 <div class="d-flex align-items-center">   
-                                    <div class="col-auto">
+                                    <div class="col-auto p-1">
                                         <img src="images/nir.png">
                                     </div>
                                     <div class="col-auto ">
@@ -304,11 +307,11 @@
                         <div class="row p-3" style="background-color: white;">
                             <div class="col-3 ml-2 ">
                                 <div class="d-flex align-items-center">   
-                                    <div class="col-auto">
+                                    <div class="col-auto p-1">
                                         <img src="images/own.png">
                                     </div>
                                     <div class="col-auto ">
-                                        <span class="nav-link text-secondary p-1">Own Boateng</span>
+                                        <span class="nav-link text-secondary">Own Boateng</span>
                                         <span class="nav-link text-secondary">Own.Boateng@gmail.com</span>
                                     </div>
                                 </div>
@@ -334,12 +337,12 @@
                         <!-- ian -->
                         <div class="row p-3" style="background-color: white;">
                             <div class="col-3 ml-2 ">
-                                <div class="d-flex align-items-center">   
-                                    <div class="col-auto">
+                                <div class="d-flex align-items-center ">   
+                                    <div class="col-auto p-1">
                                         <img src="images/ian.png">
                                     </div>
                                     <div class="col-auto ">
-                                        <span class="nav-link text-secondary p-1">Ian Dooley</span>
+                                        <span class="nav-link text-secondary">Ian Dooley</span>
                                         <span class="nav-link text-secondary">Ian.Dooley@gmail.com</span>
                                     </div>
                                 </div>

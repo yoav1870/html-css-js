@@ -1,7 +1,9 @@
 .nav-pills li a:hover {
     background-color: #8583FF;
 }
-
+.btn:hover{
+    background-color: white;
+}
 .strong-blue {
     background-color: #8583FF;
 }
