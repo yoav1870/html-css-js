@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shirt Order Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shirt Order Form</h1>
+      <form action="http://localhost/yoav/exercises/ex4/index.php" name="orderForm" method="get" onsubmit="return validateForm()">
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+          <option value="">-- Please select --</option>
+          <option value="S">Small</option>
+          <option value="M">Medium</option>
+          <option value="L">Large</option>
+        </select>
+        <div class="color-container">
+          <label for="color-blue"><input type="radio" id="color-blue" name="color" value="blue">Blue</label>
+          <label for="color-red"><input type="radio" id="color-red" name="color" value="red">Red</label>
+          <label for="color-green"><input type="radio" id="color-green" name="color" value="green">Green</label>
+        </div>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1">
+        <input type="submit" value="Submit Order">
+        <div id="sizeError" class="error"></div>
+        <div id="colorError" class="error"></div>
+        <div id="quantityError" class="error"></div>
+      </form>
+    </div>
+    <script src="js/js2.js"></script>
+  </body>
+</html>
+
