@@ -4,15 +4,15 @@ body{
     /* align-items: center; */
 }
 /* form styles */
-.container {
-    max-width: 600px;
+/* .container {
+    /* max-width: 600px;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: antiquewhite;
-    /* display: flex; */
+    border-radius: 5px; 
+    /* background-color: antiquewhite; 
+    /* display: flex; 
 
-}
+} */
 form {
 display: flex;
 flex-direction: column;
