@@ -1,5 +1,4 @@
-<?php
-   include "config.php"; 
+<?php 
    include "db.php";
    
     $query  = "SELECT * FROM tbl_92_prog";
@@ -50,7 +49,7 @@
         <div class="row">
           <div class="col text-white">
             <h1>Hello and welcome  to my page</h1>
-            <h2>Shenkar College of Engineering.</h2>
+            <h2>Yoav zucker.</h2>
           </div>
          
         </div>
@@ -90,7 +89,7 @@
       <div class="row">
             <div class="col-3 text-white"><h1>Projects</h1></div>
           </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
           <?php
           while ($row = mysqli_fetch_assoc($result)) {
             echo '<div class="col">
@@ -100,6 +99,7 @@
                         <h5 class="card-title">' . $row["prog_name"] . '</h5>
                         <p class="card-text">' . $row["Prog_summery"] . '.</p>
                         <p class="card-text">Grade: ' . $row["prog_grade"] . '.</p>
+                        <button type="button" class="btn btn-outline-light id="btn_js"">See code</button>
                         <div class="additional-info">
                           <p>URL: ' . $row["prog_url"] . '.</p>
                         </div>
